@@ -36,7 +36,7 @@ cloud service provider would be ideal to fit your needs.
     <tr>
         <th>Cloud Service Provider</th>
         <th>vCPUs</th>
-        <th>Memory (GiB)<th>
+        <th>Memory (GiB)</th>
         <th>Price</th>
         <th>Setup Tutorial</th>
     </tr>
@@ -45,14 +45,14 @@ cloud service provider would be ideal to fit your needs.
         <td>1</td>
         <td>1</td>
         <td><a href="https://aws.amazon.com/ec2/instance-types/t2/">$0.0116/hr</a></td>
-        <td><a href="#link"></a>AWS Setup</td>
+        <td><a href="https://github.com/thomasmendez/open-lms-blended/blob/master/AWS.md"></a>AWS Setup</td>
     </tr>
     <tr>
         <td><a href="https://www.digitalocean.com/">Digital Ocean</a></td>
         <td>1</td>
         <td>1</td>
         <td><a href="https://www.digitalocean.com/pricing/">$5/mo or $0.007/hr</a></td>
-        <td><a href="#link"></a>Digital Ocean Setup</td>
+        <td><a href="https://github.com/thomasmendez/open-lms-blended/blob/master/DIGITALOCEAN.md"></a>Digital Ocean Setup</td>
     </tr>
 </table>
 
