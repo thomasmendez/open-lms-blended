@@ -45,14 +45,14 @@ cloud service provider would be ideal to fit your needs.
         <td>1</td>
         <td>1</td>
         <td><a href="https://aws.amazon.com/ec2/instance-types/t2/">$0.0116/hr</a></td>
-        <td><a href="https://github.com/thomasmendez/open-lms-blended/blob/master/AWS.md"></a>AWS Setup</td>
+        <td><a href="https://github.com/thomasmendez/open-lms-blended/blob/master/AWS.md">AWS Setup</a></td>
     </tr>
     <tr>
         <td><a href="https://www.digitalocean.com/">Digital Ocean</a></td>
         <td>1</td>
         <td>1</td>
         <td><a href="https://www.digitalocean.com/pricing/">$5/mo or $0.007/hr</a></td>
-        <td><a href="https://github.com/thomasmendez/open-lms-blended/blob/master/DIGITALOCEAN.md"></a>Digital Ocean Setup</td>
+        <td><a href="https://github.com/thomasmendez/open-lms-blended/blob/master/DIGITALOCEAN.md">Digital Ocean Setup</a></td>
     </tr>
 </table>
 
@@ -104,5 +104,5 @@ Ubuntu Server Sorftware
 
 ## License
 
-Open-LMS-Blended is provided freely as open source software, under the GNU General Public License - see the [LICENSE] [GNU General Public
+Open-LMS-Blended is provided freely as open source software, under the GNU General Public License - see the [GNU General Public
 License](https://github.com/thomasmendez/open-lms-blended/blob/master/LICENSE) file for details
