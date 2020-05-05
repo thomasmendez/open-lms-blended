@@ -2,9 +2,9 @@
 
 ## AWS Setup
 
-### Signup / Login
+### Sign Up / Login
 
-1. Sign into the AWS Management Console at [https://aws.amazon.com/console/](https://aws.amazon.com/console/). If you don't have an account yet click the "Create a Free Account" button and follow the prompts.
+If you haven't done so already, please sign into the AWS Management Console at [https://aws.amazon.com/console/](https://aws.amazon.com/console/). If you don't have an account yet click the "Create a Free Account" button and follow the prompts.
 
 After creating an account or successfully logging into your AWS account, please follow the following steps to start the web application live on the internet.
 

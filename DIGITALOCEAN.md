@@ -2,9 +2,9 @@
 
 ## Digital Ocean Setup
 
-### Signup / Login
+### Sign Up / Login
 
-If you haven't done so already please sign into the Digital Ocean Console at [https://cloud.digitalocean.com/login](https://cloud.digitalocean.com/login). If you don't have an account yet click the "Sign Up" button and follow the prompts.
+If you haven't done so already, please sign into the Digital Ocean Console at [https://cloud.digitalocean.com/login](https://cloud.digitalocean.com/login). If you don't have an account yet click the "Sign Up" button and follow the prompts.
 
 If this is your first time signing up, then you will be asked to create a new project. Give the new project a proper name and select the proper technologies that we will be using (list can be found in the bottom of the [README.md](https://thomasmendez.github.io/open-lms-blended/) file).
 
@@ -83,7 +83,7 @@ sudo nano .prod.env
 
 The following instructions will show the main ENV variables that would need to be configured to have the application run properly. 
 
-*NOTE: To naviagate the file and make changes use the arrow keys *
+*NOTE: To naviagate the file and make changes use the arrow keys*
 
 #### Environment 
 
@@ -206,7 +206,7 @@ Restart NGINX since we modified the default config file with ```sudo systemctl r
 
 Quick breakdown of the NGINX configuration file:
 
-* Server will be listening to port 80 (defualt port for EC2 Instance to allow users to access it)
+* Server will be listening to port 80 (defualt port for Droplet to allow users to access it)
 * ```location /``` is the locaiton of the html files we will be using (it is going to be the final build)
 * ```location /api/``` will be what NGINX will look for when fetch request are made and will send the request to our desired proxy server, which is where our node js server is running
 
