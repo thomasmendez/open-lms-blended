@@ -86,4 +86,4 @@ echo "
 
 # install npm packages 
 
-npm --prefix ./lms-blended-app-private install ./lms-blended-app-private
+npm --prefix ./open-lms-blended install ./open-lms-blended
