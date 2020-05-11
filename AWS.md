@@ -212,17 +212,17 @@ Open-LMS-Blended was created using the MERN (MongoDB-Express-React-Node.js) stac
 
 Backend
 
-* [Node.JS](http://www.dropwizard.io/1.0.2/docs/) - Back End Scripting Language
+* [Node.JS](https://nodejs.org/en/) - Back End Scripting Language
 * [Express](https://expressjs.com/en/api.html) - Web Application Framework for Node.js
 * [Passport](http://www.passportjs.org/) - Authentication Middleware for Node.js.
 
-* [MongoDB](https://maven.apache.org/) - NoSQL Database
+* [MongoDB](https://www.mongodb.com/) - NoSQL Database
 * [Mongoose](https://mongoosejs.com/docs/) - Object Data Modeling (ODM) library for MongoDB and Node.js
 
 Frontend
 
 * [React.js](https://reactjs.org/) - Javascript Library 
-* [React Bootstrap](https://getbootstrap.com/docs/4.4/getting-started/introduction/) - Bootstrap (CSS Library/Framework) for React.js
+* [React Bootstrap](https://react-bootstrap.github.io/) - Bootstrap (CSS Library/Framework) for React.js
 
 Others
 
