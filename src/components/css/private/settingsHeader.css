@@ -1,0 +1,27 @@
+table {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+th.button {
+  width: 10%;
+  overflow: hidden;
+  height: 100%;
+  padding: 0px;
+}
+th.title {
+  width: 40%; 
+  height: 100%;
+}
+
+button.backButton {
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    background-color: Transparent;
+    background-repeat: no-repeat;
+    border: none;
+    outline: none;
+    padding: 0px;
+}

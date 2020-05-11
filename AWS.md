@@ -1,4 +1,4 @@
-# LMS-Blended-App-Private
+# Open-LMS-Blended 
 
 ## AWS Setup
 
@@ -43,7 +43,7 @@ Once the EC2 instance reaches a running state you can connect to it via SSH usin
 ### Git Clone This Repository
 
 Git clone the project to the instance 
-```git clone https://github.com/thomasmendez/lms-blended-app-private.git```
+```git clone https://github.com/thomasmendez/open-lms-blended.git```
 
 ### Setup Web Server with Node.js + MongoDB + NGINX
 
@@ -93,7 +93,7 @@ In order to make sure that our application can obtain the correct information ne
 
 * NODE_EMAIL_PASSWORD - Your password for your email username (please take proper precaution in keeping this secured)
 
-* NODE_MONGODB_URI - Set the correct connection to access the MongoDB database if needed. The current default is ```'mongodb://localhost:27017/lms-blended-app-private'```. 
+* NODE_MONGODB_URI - Set the correct connection to access the MongoDB database if needed. The current default is ```'mongodb://localhost:27017/open-lms-blended'```.
 
 #### Security
 
@@ -122,7 +122,7 @@ NODE_EMAIL_SERVICE='gmail'
 NODE_EMAIL_USERNAME='username@gmail.com'
 NODE_EMAIL_PASSWORD='password'
 
-NODE_MONGODB_URI='mongodb://localhost:27017/lms-blended-app-private'
+MONGODB_URI='mongodb://localhost:27017/open-lms-blended'
 
 # react.js 
 REACT_APP_PORT=3000

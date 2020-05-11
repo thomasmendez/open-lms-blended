@@ -1,0 +1,38 @@
+/* arrows */
+i {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    padding: 3px;
+}
+
+i:hover {
+    border-color: rgb(105,105,105);
+}
+
+.right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    float: right;
+    position: relative;
+    top: 7px;
+}
+
+.left {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+  float: left;
+  position: relative;
+  
+  left: 40%;
+  padding: 6px;
+}
+
+.up {
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+}
+
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}

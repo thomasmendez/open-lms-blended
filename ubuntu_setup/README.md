@@ -1,0 +1,1 @@
+Shell scripts to run on Ubuntu Server 18.04 before deploying app  
