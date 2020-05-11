@@ -52,8 +52,6 @@ Once the Droplet reaches a running state you can connect to it via SSH using the
 
 *NOTE: If you're using Windows you can connect to your instance via SSH using the PuTTY SSH client, for instructions see [Connect Using PuTTY](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/putty.html?icmpid=docs_ec2_console) in the AWS docs.*
 
-5. Use chmod 777 to root folder (or clone directory in home folder, but when you connect to the instance you start at root instead of home folder)
-
 ### Git Clone This Repository
 
 1. Navigate to the home directory by using ```cd /home``` (by default you will be at the /root directory when you connect to the Droplet, we do not want to place our project here)
@@ -70,11 +68,11 @@ Once the Droplet reaches a running state you can connect to it via SSH using the
 The below command executes a script to automatically setup and configure a production ready MERN Stack web server on Ubuntu that includes Node.js, MongoDB, PM2, NGINX and UFW.
 
 While connected to the new Droplet in the terminal window, run the following command in the /home/ubuntu directory:
-```sudo bash ./lms-blended-app-private/ubuntu_setup/shell/manual/install.sh```
+```sudo bash ./open-lms-blended/ubuntu_setup/shell/manual/install.sh```
 
 ### Setup Environment Variables
 
-Navigate to the cloned directory ```cd lms-blended-app-private```
+Navigate to the cloned directory ```cd open-lms-blended```
 
 Setup the correct environment variables in the .env file for this directory. Run this command to edit the prod.env file using the nano editor and save it as the .env file.
 ```
@@ -158,7 +156,7 @@ In order to make sure that the name of the website will be displayed correctly a
 ```sudo nano src/public/index.html```
 
 The only section that you need to change in the file is this
-```<title>LMS-Blended-App-Private</title>```
+```<title>Open LMS Blended</title>```
 
 In between the ```<title>  </title>``` tags, write down the name that you wish to be displayed when a user looks at the tab and save the updated file.
 
@@ -189,7 +187,7 @@ server {
 
   # react app & front-end files
   location / {
-    root /home/ubuntu/lms-blended-app-private/dist;
+    root /home/ubuntu/open-lms-blended/dist;
     try_files $uri /index.html;
   }
 
