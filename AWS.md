@@ -50,11 +50,11 @@ Git clone the project to the instance
 The below command executes a script to automatically setup and configure a production ready MERN Stack web server on Ubuntu that includes Node.js, MongoDB, PM2, NGINX and UFW.
 
 While connected to the new AWS EC2 instance in the terminal window, run the following command:
-```sudo bash ./lms-blended-app-private/ubuntu_setup/shell/manual/install.sh```
+```sudo bash ./open-lms-blended/ubuntu_setup/shell/manual/install.sh```
 
 ### Setup Environment Variables
 
-Navigate to the cloned directory ```cd lms-blended-app-private```
+Navigate to the cloned directory ```cd open-lms-blended```
 
 Setup the correct environment variables in the .env file for this directory. Run this command to edit the prod.env file using the nano editor and save it as the .env file.
 ```
@@ -138,7 +138,7 @@ In order to make sure that the name of the website will be displayed correctly a
 ```sudo nano src/public/index.html```
 
 The only section that you need to change in the file is this
-```<title>LMS-Blended-App-Private</title>```
+```<title>Open LMS Blended</title>```
 
 In between the ```<title>  </title>``` tags, write down the name that you wish to be displayed when a user looks at the tab and save the updated file.
 
@@ -169,7 +169,7 @@ server {
 
   # react app & front-end files
   location / {
-    root /home/ubuntu/lms-blended-app-private/dist;
+    root /home/ubuntu/open-lms-blended/dist;
     try_files $uri /index.html;
   }
 
