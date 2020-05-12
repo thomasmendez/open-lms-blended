@@ -206,6 +206,37 @@ Unit testing is done with the javascript framework Mocha and the Chai javascript
 
 In terminal where lms-blended-app-private folder is located run```sudo npm test``` to view the test that the web application has. 
 
+#### Inviting Users
+
+If you want to invite users to the application, they would need to obtain a code in order to sign up. In order to generate one and send it to an email address run ```sudo npm run inviteUser``` in the ```/home/ubuntu/open-lms-blended``` directory (if you are not in that directory, use ```cd /home/ubuntu/open-lms-blended```). The following prompt should show up. 
+
+```
+prompt: Email of user you wish to invite to sign up:
+```
+
+Simply enter the email address you wish to send it to and they should receive it within a couple of seconds. 
+
+```
+prompt: Email of user you wish to invite to sign up: invitedUser@gmail.com
+email invitation was sent to invitedUser@gmail.com!
+```
+
+#### Deleting Users
+
+If for any reason, you believe that a user should be completly removed from the application (uninvited users or uses who break your organizations rules). You are able to easily remove them by running ```sudo npm run deleteUser``` in the ```/home/ubuntu/open-lms-blended``` directory (if you are not in that directory, use ```cd /home/ubuntu/open-lms-blended```). The following prompt should show up. 
+
+```
+prompt: Username of user you wish to delete:
+```
+
+You will have to confirm you want to delete the user by typing and entering "Yes", "yes", "Y", or "y". Leaving it blank or entering "No", "no", "N", or "n" would cancel the attempted deletion. 
+
+```
+prompt: Username of user you wish to delete: userToDelete
+prompt: Are you sure? (yes/no): yes
+Successfully deleted user
+```
+
 ## Built With
 
 Open-LMS-Blended was created using the MERN (MongoDB-Express-React-Node.js) stack, a free and open-source JavaScript software stack for creating single page applications. 
