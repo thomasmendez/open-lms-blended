@@ -11,21 +11,22 @@ const prompt = require('prompt');
 const properties = [
     {
         name: 'username',
-        description: 'Username of user you wish to delete',
+        message: 'Username of user you wish to delete',
         type: 'string',
         validator: /[a-zA-Z\d][a-zA-Z0-9_]{3,10}$/,
-        warning: 'Please enter a valid email'
+        warning: 'Please enter a valid username'
     },
     {
         name: 'confirm',
-        description: 'Are you sure? (yes/no)',
+        message: 'Are you sure? (yes/no)',
         type: 'string',
         validator: /^(?:Yes|yes|Y|y|No|no|N|n)$/,
         warning: 'Please enter (yes/no) only'
     },
 ];
 
-//        validator: /^(?:Yes|yes|Y|y|No|no|N|n)$/,
+console.log("Type out the username of the user you wish to delete from " + process.env.INSTITUTION_NAME)
+console.log("If you do not wish to delete anyone please just press enter and leave responses blank to cancel or refuse when asked for confirmation")
 
 //
 // Disable prompt's built-in SIGINT handling:
