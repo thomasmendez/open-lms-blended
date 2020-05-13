@@ -3,7 +3,7 @@ export function validateUsername(username) {
     // must start with character a-Z or digit followed by a-Z or digit or undrscore 
     let startWith = /^[a-zA-Z0-9]/;
     // and ends with 3 or more 
-    let user_regex = /^[a-zA-Z0-9][a-zA-Z0-9_]{3,10}$/;
+    let user_regex = /^[a-zA-Z0-9][a-zA-Z0-9_]{3,15}$/;
 
     if (!(startWith.test(username))) {
         let infoText = "Username does not start with letter or digit";
@@ -14,7 +14,7 @@ export function validateUsername(username) {
         return result;
 
     } else if (!(user_regex.test(username))) {
-        let infoText = "Username needs to be 4 characters or longer and can only contain letters, digit, or underscore";
+        let infoText = "Username needs to be 4 characters or longer (max 15) and can only contain letters, digit, or underscore";
         let result = {
             isValid: false,
             infoText: infoText

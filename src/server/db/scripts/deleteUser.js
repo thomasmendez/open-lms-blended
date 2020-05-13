@@ -13,7 +13,7 @@ const properties = [
         name: 'username',
         message: 'Username of user you wish to delete',
         type: 'string',
-        validator: /[a-zA-Z\d][a-zA-Z0-9_]{3,10}$/,
+        validator: /[a-zA-Z\d][a-zA-Z0-9_]{3,15}$/,
         warning: 'Please enter a valid username'
     },
     {
