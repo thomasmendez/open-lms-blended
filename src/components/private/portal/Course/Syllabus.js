@@ -303,6 +303,8 @@ class Syllabus extends React.Component {
 
                     // there is no previous uploaded syllabus
                     return (
+                        <>
+                        <UserNavBar isLoggedIn={true} username={this.state.username}></UserNavBar>
                         <Container fluid>
                             {alert}
                             <Row>
@@ -319,6 +321,7 @@ class Syllabus extends React.Component {
                             >
                             </AddForm>
                         </Container>
+                        </>
                     )
 
                 }
