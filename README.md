@@ -91,7 +91,7 @@ Unit Testing
 * [Chai](https://www.chaijs.com/) -  BDD / TDD Assertion Library
 * [Enzyme](https://enzymejs.github.io/enzyme/) - JavaScript Testing Utility for React
 
-Ubuntu Server Sorftware
+Ubuntu Server Software
 
 * [PM2](https://pm2.keymetrics.io/) - Production Process Manager for Node.js
 * [NGINIX](https://www.nginx.com/) - Web Server
